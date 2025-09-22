@@ -1886,6 +1886,7 @@
     background-size: 150px 150px;
     animation: float 12s ease-in-out infinite;
   }
+  }
 }
 }
 
@@ -1909,7 +1910,6 @@
   .animate-neon-pulse {
     animation: neon-pulse 2s ease-in-out infinite alternate;
   }
-}
 
 @keyframes gradient {
   0%, 100% { 
@@ -1956,6 +1956,7 @@
   to { 
     text-shadow: 0 0 20px currentColor, 0 0 30px currentColor, 0 0 40px currentColor; 
   }
+}
 
 @keyframes gradient-shift {
   0%, 100% {

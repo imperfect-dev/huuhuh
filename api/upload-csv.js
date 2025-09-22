@@ -1,6 +1,6 @@
-import { IncomingForm } from 'formidable';
-import fs from 'fs';
-import path from 'path';
+const { IncomingForm } = require('formidable');
+const fs = require('fs');
+const path = require('path');
 
 // Disable body parser for file uploads
 export const config = {
